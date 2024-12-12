@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        button{
+            background-color: aqua;
+    margin: 15px;
+    height: 70px;
+    width: 130px;
+    font-size: 25px;
+    border-radius: 10px;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bat-ball Game</title>
+</head>
+<body style="background-color: blue;;" >
+<h1 style="display:flex; justify-content: center; font-size:50px;">Cricket Bat Ball Game</h1>
+<div class="container" style="display:flex; justify-content:center;">
+
+
+    <button onclick="
+    
+   
+    let randomNumber = Math.random() * 3;
+    var computerChoice; 
+    
+    if (randomNumber > 0 && randomNumber <= 1){
+      var computerChoice = 'bat';
+    //  console.log('Computer choice is bat');
+    }
+    else if (randomNumber > 1 && randomNumber <2){
+       var computerChoice = 'bowl';
+     //   console.log('computer choice is bowl');
+    }
+    else {
+        var computerChoice = 'stumps';
+       // console.log('computer choice is stump');
+    }
+
+   
+   var resultMsg;
+    if (computerChoice === 'ball'){
+       resultMsg = 'computer won.';
+    }
+    else if (computerChoice === 'bat'){
+     resultMsg =`It's a tie`;
+    }
+    else {
+       resultMsg=`user has won`;
+    }
+    alert(` You have chosen bat.Computer choice is ${computerChoice}.So,final result is ${resultMsg}`);
+    " >Bat</button>
+ 
+
+
+
+
+
+
+
+
+
+    <Button onclick="
+    
+   
+  randomNumber = Math.random() * 3;
+    var computerChoice; 
+    
+    if (randomNumber > 0 && randomNumber <= 1){
+      var computerChoice = 'bat';
+    //  console.log('Computer choice is bat');
+    }
+    else if (randomNumber > 1 && randomNumber <2){
+       var computerChoice = 'bowl';
+     //   console.log('computer choice is bowl');
+    }
+    else {
+        var computerChoice = 'stumps';
+       // console.log('computer choice is stump');
+    }
+
+   
+   var resultMsg;
+    if (computerChoice === 'ball'){
+       resultMsg = `It's a tie`;
+    }
+    else if (computerChoice === 'bat'){
+     resultMsg ='computer won.';
+    }
+    else {
+       resultMsg=`user won`;
+    }
+    alert(` You have chosen BallComputer choice is ${computerChoice}.So,final result is ${resultMsg}`);
+    "  >Ball</Button>
+ 
+    <button onclick="
+    
+   
+    let randomNumber = Math.random() * 3;
+    var computerChoice; 
+    
+    if (randomNumber > 0 && randomNumber <= 1){
+      var computerChoice = 'bat';
+    //  console.log('Computer choice is bat');
+    }
+    else if (randomNumber > 1 && randomNumber <2){
+       var computerChoice = 'bowl';
+     //   console.log('computer choice is bowl');
+    }
+    else {
+        var computerChoice = 'stumps';
+       // console.log('computer choice is stump');
+    }
+
+   
+   var resultMsg;
+    if (computerChoice === 'ball'){
+       resultMsg = 'computer won.';
+    }
+    else if (computerChoice === 'bat'){
+     resultMsg =`user won`;
+    }
+    else {
+       resultMsg=`It's a tie`;
+    }
+    alert(`You have chosen Wicket.Computer choice is ${computerChoice}.So,final result is ${resultMsg}`);
+    " 
+    >Wicket</button></div>  
+    <script>
+        
+
+    </script>
+</body>
+</html>
